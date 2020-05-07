@@ -1,3 +1,4 @@
+```
 hashGenesisBlock = uint256("0x01");
 if (true && genesis.GetHash() != hashGenesisBlock)
         {
@@ -29,3 +30,4 @@ while (true)
             printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
             printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
         }
+```
